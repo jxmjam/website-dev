@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="A simple e‑commerce demo for a college assignment." />
+  <title>Products • Campus Threads</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="icon" href="assets/img/logo.svg" />
+  
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div id="app-header"></div>
+  <main id="main" tabindex="-1">
+    
+<section class="catalog">
+  <h1 class="section-title">Shop Products</h1>
+  <form class="filters" id="filtersForm" aria-label="Product filters">
+    <input type="search" id="searchInput" placeholder="Search products…" aria-label="Search products">
+    <select id="categorySelect" aria-label="Filter by category">
+      <option value="">All categories</option>
+    </select>
+    <select id="sortSelect" aria-label="Sort products">
+      <option value="featured">Featured</option>
+      <option value="price-asc">Price: Low to High</option>
+      <option value="price-desc">Price: High to Low</option>
+      <option value="rating-desc">Top Rated</option>
+    </select>
+  </form>
+
+  <div id="productsGrid" class="grid grid--responsive" role="list" aria-live="polite"></div>
+</section>
+
+<script src="assets/js/products.js"></script>
+
+  </main>
+  <div id="app-footer"></div>
+  <script src="assets/js/ui.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
