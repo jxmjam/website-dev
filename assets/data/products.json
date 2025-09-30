@@ -1,0 +1,47 @@
+[
+  {
+    "id": 101,
+    "name": "Classic Campus Tee",
+    "price": 19.99,
+    "rating": 4.4,
+    "category": "Apparel",
+    "image": "assets/img/tee.jpg",
+    "description": "Soft cotton tee with a relaxed fit. Perfect for lectures, labs, and late\u2011night study sessions."
+  },
+  {
+    "id": 102,
+    "name": "Insulated Water Bottle",
+    "price": 24.5,
+    "rating": 4.7,
+    "category": "Accessories",
+    "image": "assets/img/bottle.jpg",
+    "description": "Keeps drinks cold for 24h or hot for 12h. Leak\u2011proof, durable, and backpack\u2011friendly."
+  },
+  {
+    "id": 103,
+    "name": "Notebook Pack (5)",
+    "price": 12.0,
+    "rating": 4.2,
+    "category": "Supplies",
+    "image": "assets/img/notebooks.jpg",
+    "description": "Five ruled notebooks for note\u2011taking and project planning. 100 pages each."
+  },
+  {
+    "id": 104,
+    "name": "Wireless Earbuds",
+    "price": 39.0,
+    "rating": 4.1,
+    "category": "Tech",
+    "image": "assets/img/earbuds.jpg",
+    "description": "Reliable Bluetooth earbuds with a charging case. Great for the gym or walking to class."
+  },
+  {
+    "id": 105,
+    "name": "Hoodie (Unisex)",
+    "price": 34.99,
+    "rating": 4.8,
+    "category": "Apparel",
+    "image": "assets/img/hoodie.jpg",
+    "description": "Cozy fleece hoodie with a roomy pocket and a modern fit. Your new campus staple."
+  }
+]
